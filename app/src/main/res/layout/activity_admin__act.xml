@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_bg_xml"
+    android:layout_height="match_parent"
+    tools:context="com.example.syedwaleedsohail.guide.Admin_ACT">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add"
+            android:layout_marginTop="60dp"
+            android:background="#133337"
+            android:textStyle="bold"
+            app:fontFamily="@font/abel"
+            android:textColor="#F1EEEE"
+            android:textSize="18dp"
+            android:text="add data" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_View"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            app:fontFamily="@font/abel"
+            android:background="#420420"
+            android:textColor="#F1EEEE"
+            android:layout_marginTop="15dp"
+            android:text="view DAta"/>
+        <Button
+            android:layout_marginTop="15dp"
+            app:fontFamily="@font/abel"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_update"
+
+            android:textSize="18dp"
+            android:textColor="#F1EEEE"
+            android:background="#696969"
+            android:text="update"/>
+        <Button
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_logout"
+            app:fontFamily="@font/abel"
+            android:textColor="#F1EEEE"
+            android:textSize="18dp"
+
+            android:layout_marginTop="15dp"
+            android:background="#333333"
+            android:text="logout"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+

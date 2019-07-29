@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin_bg"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:layout_margin="10dp"
+    tools:context="com.example.syedwaleedsohail.guide.subject1_ShowACT">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/th1"
+        android:hint="Heading"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/edit_txt_style"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:layout_marginStart="10dp"
+        android:text="Explanation"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/te1"
+        android:padding="10dp"
+        android:background="@drawable/edit_txt_style"
+        android:hint="Explaination"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:layout_marginStart="10dp"
+        android:text="Example"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tee1"
+        android:hint="Example"
+        android:padding="10dp"
+        android:background="@drawable/edit_txt_style"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+   </ScrollView>

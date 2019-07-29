@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/data_insertion_xml"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+
+        tools:context="com.example.syedwaleedsohail.guide.MainActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Insert Data"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:fontFamily="@font/abel"
+                android:textColor="#000"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_heading1"
+                android:layout_marginTop="50dp"
+                android:hint="Heading"
+                android:background="@drawable/edit_txt_style"
+                android:padding="10dp"
+                android:inputType="text"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_explaination1"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_txt_style"
+                android:padding="10dp"
+                android:hint="Explaination"
+                android:inputType="text"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_example1"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit_txt_style"
+                android:padding="10dp"
+                android:hint="Example"
+                android:inputType="text"/>
+
+           <Button
+               android:layout_width="180dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="50dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/btn_submit"
+               android:textColor="#fff"
+               android:textSize="18dp"
+               android:fontFamily="@font/abel"
+               android:background="@drawable/button_new2"
+               android:text="insert"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

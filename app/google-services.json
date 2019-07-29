@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "17915187267",
+    "firebase_url": "https://guide-b4bc5.firebaseio.com",
+    "project_id": "guide-b4bc5",
+    "storage_bucket": "guide-b4bc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17915187267:android:f0bb856e3e785989",
+        "android_client_info": {
+          "package_name": "com.example.syedwaleedsohail.guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17915187267-md16l7cs8ssb2garlutrvqts1k36mqoa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.syedwaleedsohail.guide",
+            "certificate_hash": "f97c5d3214a71c2e0ccdf6384cf59a285f6c5ab7"
+          }
+        },
+        {
+          "client_id": "17915187267-sdbh1toqb2963ncfnbod34go0016nqd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDclOGM41y4vA-e2i0htzVIcL9Y2Z7JJAY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17915187267-sdbh1toqb2963ncfnbod34go0016nqd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
